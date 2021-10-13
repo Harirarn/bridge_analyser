@@ -15,9 +15,9 @@ represents number games where, the team had 'points' in HCP, 'fitsize' number of
 'smallersize' number of trumps in the shorter hand, and double dummy solver reported 'tricks' number of tricks taken.
 For No trumps,
 ```
-data['NT'][points][blocker][tricks]
+data['NT'][points][stopper][tricks]
 ```
-'blocker' is 0 or 1 depending on all 4 four suits are blocked or not.
+'stopper' is 0 or 1 depending on all 4 four suits are stopped or not.
 
 The tabulate.py file tabulates the data from results.json file.
 
