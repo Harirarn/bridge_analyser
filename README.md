@@ -17,4 +17,4 @@ For No trumps,
 ```
 data['NT'][points][blocker][tricks]
 ```
-'bloker' is 0 or 1 depending on all 4 four suits are blocked or not.
+'blocker' is 0 or 1 depending on all 4 four suits are blocked or not.

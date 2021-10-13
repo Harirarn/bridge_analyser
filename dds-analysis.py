@@ -140,7 +140,7 @@ if __name__ == '__main__':
         data['NT'] = [[[0]*14, [0]*14] for pt in range(total_pts+1)]
         # data['NT'][points][blocker][tricks]
     with open(pbnfile, 'a') as file:
-        for trial in range(1000):
+        for trial in range(20000):
             new_deck = DECK[:]
             random.shuffle(new_deck)
             new_deal = Deal(Hand(cards=new_deck[:13]), Hand(cards=new_deck[13:26]), Hand(cards=new_deck[26:39]), Hand(cards=new_deck[39:]))
