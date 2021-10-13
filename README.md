@@ -29,10 +29,10 @@ optional arguments:
   -c, -commulative     Shows commulative probablities instead.
   -nt, -NT             Solves for No Trump contract. Omit this for trump
                        contracts.
-  -bl BL, -blocker BL  In NT contracts, whether all suits have blockers.
-                       -bl 0: missing blockers
-                       -bl 1:blockers present
-                       -bl 2:blocker status not investigated.
+  -bl BL, -blocker BL  In NT contracts, whether all suits have stoppers.
+                       -bl 0: missing stoppers
+                       -bl 1:stoppers present
+                       -bl 2:stopper status not investigated.
   -fit FIT             Specifies the fit size.
   -subfit SUBFIT       Specifies the number of trumps in the shorter hand.
                        Omit this to consider all fit types.
